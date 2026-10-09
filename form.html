@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -18,6 +18,65 @@
 
     <input type="submit" value="Submit">
  </form>
-  
+
 </body>
-</html>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <legend>Biodata</legend>
+    <form action="response.html">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        </form>
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        <br><br>
+        <label for="pass">Password:</label><br>
+        <input type="password" id="pass" name="pass" placeholder="Enter your password" required>
+        <br><br>
+        <label for="gender">Gender:</label><br>
+        <input type="radio" id="gen" name="gender">
+        <label for="gen">Male</label><br>
+        <input type="radio" id="gen" name="gender">
+        <label for="gen">Female</label><br>
+        <input type="radio" id="gen" name="gender">
+        <label for="gen">Other</label><br><br> 
+        
+        <label for="hobb">Hobbies:</label><br>
+        <input type="checkbox" id="hobb" name="hobbies">
+        <label for="hobb">cricket</label><br>
+        <input type="checkbox" id="hobb" name="hobbies">
+        <label for="hobb">carrom</label><br>
+
+       <br><br>
+        <select name="lang" id="lang">
+            <option value="select">Select</option>
+            <option value="c++">c++</option>
+            <option value="java">java</option>
+            <option value="python">python</option>
+        </select>
+        <br><br>
+        <label for DOB>Date of Birth:</label><br>
+        <input type="date" id="dob" name="dob">
+        <br><br>
+        <label for=attempt>Attempt:</label><br>
+        <input type="number" id="attempt" name="attempt" min="1" max="5">
+        <br><br>
+<label for="url">enter your homepage:</label><br>
+<input type="url" id="url" name="url">
+<br><br>
+<label for = file>upload your Resume:</label><br>
+<input type="file" id="file" name="file">
+<br><br>
+ <input type="submit" id="submit" name="submit">
+  <input type="reset" id="reset" name="reset">
+</body>
+
